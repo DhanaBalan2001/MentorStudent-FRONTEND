@@ -2,9 +2,9 @@ Frontend: MENTOR AND STUDENT ASSIGNING
   
 1. Overview :
        
-   -  The frontend is developed using React.js.
+    -  The frontend is developed using React.js.
 
-   -  It communicates with the backend API to allow users to create mentors and students, assign students to mentors, change mentor      assignments, and view students' mentor history.
+    -  It communicates with the backend API to allow users to create mentors and students, assign students to mentors, change mentor      assignments, and view students' mentor history.
 
  2. Features :
 
@@ -34,16 +34,16 @@ Frontend: MENTOR AND STUDENT ASSIGNING
 
           A page where users can view the mentor history for a particular student by calling the /api/students/:studentId/previous-mentors API.
 
-    3. Frontend Setup Process :
+ 3. Frontend Setup Process :
 
-          -  Use React.js to Build the UI : Create components like MentorForm, StudentForm, AssignStudents, and MentorList to handle various parts of the application.
+    -  Use React.js to Build the UI : Create components like MentorForm, StudentForm, AssignStudents, and MentorList to handle various parts of the application.
 
-          -  Communicate with the Backend : Use axios or the fetch API to send requests to the backend for creating mentors, students, and assigning them. Handle responses and show feedback to the user.
+    -  Communicate with the Backend : Use axios or the fetch API to send requests to the backend for creating mentors, students, and assigning them. Handle responses and show feedback to the user.
 
-          - Validation and Error Handling : Validate inputs on the frontend before sending data to the backend. Implement error handling in case of failed API requests.
+    -  Validation and Error Handling : Validate inputs on the frontend before sending data to the backend. Implement error handling in case of failed API requests.
 
-          - Routing : Use react-router-dom to create routes for different pages (e.g., Create Mentor, Assign Students, View Mentor's Students).
+    -  Routing : Use react-router-dom to create routes for different pages (e.g., Create Mentor, Assign Students, View Mentor's Students).
 
-          - Deploy and Test : Once everything is set up, deploy the frontend and backend and test interactions like creating mentors, assigning students, and changing assignments.
+    -  Deploy and Test : Once everything is set up, deploy the frontend and backend and test interactions like creating mentors, assigning students, and changing assignments.
       
             
